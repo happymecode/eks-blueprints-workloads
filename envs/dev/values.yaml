@@ -6,8 +6,7 @@ spec:
   source:
     repoURL: https://github.com/happymecode/eks-blueprints-workloads
     targetRevision: main
-  ingress:
-    host: dev.example.com
+
   # Thoses default values can be surcharged by Infrastructure as Code
   env: dev
   clusterName: eks-blueprint-cluster # the name of EKS cluster
